@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e45ae2f02c64b94d9bdd3bd9a51802b, type: 3}
+  m_Name: Default_TerrainData
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  levelOfDetail: 0
+  meshHeightMultiplier: 100
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  mapChunkSize: 513
+  terrainRegions:
+  - terrain_name: Water Deep
+    terrain_height: 0.15
+    terrain_color: {r: 0.07058824, g: 0.17254902, b: 0.6039216, a: 0}
+  - terrain_name: Water
+    terrain_height: 0.25
+    terrain_color: {r: 0.14901961, g: 0.25490198, b: 0.69803923, a: 0}
+  - terrain_name: Water Shallow
+    terrain_height: 0.35
+    terrain_color: {r: 0.37254903, g: 0.47058824, b: 0.8862745, a: 0}
+  - terrain_name: Beach
+    terrain_height: 0.45
+    terrain_color: {r: 0.84313726, g: 0.8666667, b: 0.4862745, a: 0}
+  - terrain_name: Grass 2
+    terrain_height: 0.55
+    terrain_color: {r: 0.24313726, g: 0.41960785, b: 0.07058824, a: 0}
+  - terrain_name: Rock
+    terrain_height: 0.61
+    terrain_color: {r: 0.3529412, g: 0.27058825, b: 0.23529412, a: 0}
+  - terrain_name: Rock 2
+    terrain_height: 0.87
+    terrain_color: {r: 0.29411766, g: 0.23529412, b: 0.20784314, a: 0}
+  - terrain_name: Snow
+    terrain_height: 1
+    terrain_color: {r: 1, g: 1, b: 1, a: 0}
